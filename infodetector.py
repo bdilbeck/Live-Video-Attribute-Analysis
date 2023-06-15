@@ -28,7 +28,7 @@ while True:
     info["Gender"].append(inspect[0]["dominant_gender"])
     info["Race"].append(inspect[0]["dominant_race"])
     print(info)
-    time.sleep(30.0-((time.time()-start_time) % 30.0)) # The script re-downloads the actions of gender, age, race, and emotion every 30 seconds. 
+    time.sleep(30.0) # The script re-downloads the actions of gender, age, race, and emotion every 30 seconds. 
     if cv2.waitKey(1) == ord('q'):
         break
   
