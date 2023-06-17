@@ -12,5 +12,9 @@ Timeline
 06/15/2023: The script functions as intended, however there are a few bugs impacting optimality:
 
 -The video frame window that appears upon starting the script is almost always frozen and does not provide a sufficient video feed
+
 -The script re-downloads the actions of age, race, gender, and emotion every 30 seconds as it is prompted to complete a scan
--The script crashes when no face is in view of the camera
+
+-The script crashes when no face is in view of the camera (Resolved!)
+
+06/16/2023: Crashing issue was resolved by adding "try" and "except" blocks to while loop
